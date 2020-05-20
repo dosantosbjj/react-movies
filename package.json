@@ -1,0 +1,20 @@
+{
+  "name": "react-movies",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.0",
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
